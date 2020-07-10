@@ -1,18 +1,19 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-//import "./style.css";
+import {NavLink} from "react-router-dom";
+import "./style.css";
 
 function navigation(props) {
   return (
     <Navbar variant="dark" bg="dark" expand="lg">
-      <Navbar.Brand href="#about">Logan</Navbar.Brand>
+      <Navbar.Brand>Logan</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+          <NavLink className="navbar-dark navbar-nav nav-link" to="/">About</NavLink>
+          <NavLink className="navbar-dark navbar-nav nav-link" to="/portfolio">Portfolio</NavLink>
+          <NavLink className="navbar-dark navbar-nav nav-link" to="/contact">Contact</NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
