@@ -6,6 +6,7 @@ import Navigation from "./components/navBar/navBar";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Portfolio from "./components/portfolio/portfolio";
+import Footer from "./components/footer/footer";
 
 
 import Container from "react-bootstrap/Container";
@@ -30,6 +31,7 @@ function App() {
           <About />
           </Route>
         </Switch>
+        <Footer />
       </Container>
     </div>
     </Router>
