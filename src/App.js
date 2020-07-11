@@ -5,6 +5,7 @@ import "./App.css";
 import Navigation from "./components/navBar/navBar";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
+import Portfolio from "./components/portfolio/portfolio";
 
 
 import Container from "react-bootstrap/Container";
@@ -23,7 +24,7 @@ function App() {
           <Contact />
           </Route>
           <Route path="/portfolio">
-          <About />
+          <Portfolio />
           </Route>
           <Route path="/">
           <About />
