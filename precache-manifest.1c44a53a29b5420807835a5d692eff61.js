@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57642a46287f1dcb81f92e6b769985e7",
+    "revision": "9394226a5510171af05b0b4c57701b61",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "8e969ea622688109388e",
+    "revision": "418b6e2b6acdcd7c18cd",
     "url": "/react-portfolio/static/css/main.a3c1feb6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.5342764f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e969ea622688109388e",
-    "url": "/react-portfolio/static/js/main.2585cfb0.chunk.js"
+    "revision": "418b6e2b6acdcd7c18cd",
+    "url": "/react-portfolio/static/js/main.330fe0dd.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/Pictorial.5f997356.jpg"
   },
   {
-    "revision": "1e5392a5e870d575b61c7947ab2b13a6",
-    "url": "/react-portfolio/static/media/employeecards.1e5392a5.png"
+    "revision": "6289c09059015c166764ac151bd9bc5d",
+    "url": "/react-portfolio/static/media/acecard.6289c090.png"
   },
   {
     "revision": "072fc43378650f232359d7e84ea8d7fb",
