@@ -7,7 +7,7 @@ function projectcard(props) {
   return (
     <div className = "cardDiv">
       <Card bg="secondary" text="light" style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={window.location.origin + "/" + props.image} />
+        {/* <Card.Img variant="top" src={window.location.origin + "/" + props.image} /> */}
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>{props.description}</Card.Text>
