@@ -3,7 +3,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import CardDeck from "react-bootstrap/CardDeck";
 import ProjectCard from "../projectcard/projectcard.js";
 import projects from "../../assets/projects.json";
-import employeecards from "../../images/employeecards.png";
+import acecard from "../../images/acecard.png";
 import proj1shot from "../../images/proj1shot.png";
 import scheduler from "../../images/scheduler.png";
 import weatherdashboard from "../../images/weatherdashboard.png";
@@ -19,12 +19,6 @@ function portfolio(props) {
           <hr className="my-4" />
           <CardDeck>
           <ProjectCard
-            name="Employee Cards"
-            image={employeecards}
-            link="https://github.com/Stackandslash/employee-summary/blob/master/README.md"
-            description="This command-line application creates a page of employee cards for your site, based on your specifications."
-          />
-          <ProjectCard
             name="Weather Dashboard"
             image={weatherdashboard}
             link="https://stackandslash.github.io/weather-dash/"
@@ -35,6 +29,12 @@ function portfolio(props) {
             image={scheduler}
             link="https://stackandslash.github.io/day-planner-w3d4/"
             description="This application is a quick option to make and save notes by the hour."
+          />
+          <ProjectCard
+            name="Ace Flashcards"
+            image={acecard}
+            link="https://github.com/Vega2020/ace-flashcards"
+            description="This team project offers a set of flashcards for use in learning more about coding, and the ability to add more as needed."
           />
           </CardDeck>
         </Jumbotron>

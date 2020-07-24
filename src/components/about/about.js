@@ -12,7 +12,10 @@ function about(props) {
         <img className = "img-thumbnail mr-3 mb-1 img-fluid" src={require("../../assets/Pictorial.jpg")} alt = "This will be me, but right now it's cats."/>
       </div>
           <p>
-          Logan is a guy who has continued to code at least 5 days a week, and has been doing so for some time now. He enjoys doing so, as well as video games, writing, and writing video games. His interest in video games about writing is yet to be established. He is shown here with his wife, with whom he frequently writes.
+          Logan is a recent graduate of the University of Arizona's Full Stack Coding Bootcamp. Since then, he's kept busy reading and learning about new technologies and concepts.
+          </p>
+          <p>
+            He's proficient in HTML, CSS, SQL, React.js, and REST APIs. He's always looking to learn new concepts, and sharpen his skills with the ones he already knows. 
           </p>
         </Jumbotron>
     </div>
