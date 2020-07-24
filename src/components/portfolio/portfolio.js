@@ -3,10 +3,10 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import CardDeck from "react-bootstrap/CardDeck";
 import ProjectCard from "../projectcard/projectcard.js";
 import projects from "../../assets/projects.json";
-import employeecards from "./employeecards.png";
-import proj1shot from "./proj1shot.png";
-import scheduler from "./scheduler.png";
-import weatherdashboard from "./weatherdashboard.png";
+import employeecards from "../../images/employeecards.png";
+import proj1shot from "../../images/proj1shot.png";
+import scheduler from "../../images/scheduler.png";
+import weatherdashboard from "../../images/weatherdashboard.png";
 //import "./style.css";
 
 
@@ -31,7 +31,7 @@ function portfolio(props) {
             description="This application is a simple way to find weather conditions around the country."
           />
           <ProjectCard
-            name="Employee Cards"
+            name="Scheduler"
             image={scheduler}
             link="https://stackandslash.github.io/day-planner-w3d4/"
             description="This application is a quick option to make and save notes by the hour."
