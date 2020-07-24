@@ -3,6 +3,10 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import CardDeck from "react-bootstrap/CardDeck";
 import ProjectCard from "../projectcard/projectcard.js";
 import projects from "../../assets/projects.json";
+import employeecards from "./employeecards.png";
+import proj1shot from "./proj1shot.png";
+import scheduler from "./scheduler.png";
+import weatherdashboard from "./weatherdashboard.png";
 //import "./style.css";
 
 
