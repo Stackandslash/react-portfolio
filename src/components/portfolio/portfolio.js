@@ -22,18 +22,21 @@ function portfolio(props) {
             name="Weather Dashboard"
             image={weatherdashboard}
             link="https://stackandslash.github.io/weather-dash/"
+            gitlink="https://github.com/Stackandslash/weather-dash"
             description="This application is a simple way to find weather conditions around the country."
           />
           <ProjectCard
             name="Scheduler"
             image={scheduler}
             link="https://stackandslash.github.io/day-planner-w3d4/"
+            gitlink="https://github.com/Stackandslash/day-planner-w3d4"
             description="This application is a quick option to make and save notes by the hour."
           />
           <ProjectCard
             name="Ace Flashcards"
             image={acecard}
-            link="https://github.com/Vega2020/ace-flashcards"
+            link="https://arcane-beach-70075.herokuapp.com"
+            gitlink="https://github.com/Vega2020/ace-flashcards"
             description="This team project offers a set of flashcards for use in learning more about coding, and the ability to add more as needed."
           />
           </CardDeck>
