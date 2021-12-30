@@ -8,7 +8,7 @@ function projectcard(props) {
       <Card bg="secondary" text="light" style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
-          src={window.location.origin + "/" + props.image}
+          src={window.location.origin + props.image}
         />
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
